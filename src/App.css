@@ -1,0 +1,9 @@
+.relative{
+    position: relative;
+    z-index:0;
+}
+.glow-text {
+    color: white;
+    text-shadow: rebeccapurple 0 0 10px;
+   }
+

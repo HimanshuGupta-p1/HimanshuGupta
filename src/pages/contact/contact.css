@@ -1,0 +1,32 @@
+
+.signature{
+    width: 300px;
+    position:relative;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width:600px) {
+    .signature{
+        width: 200px;
+        position: relative;
+      }
+  }
+
+  .ContactForm input[type="text"]{
+    background-color: transparent;
+    border: solid white 3px;
+    color:white;
+  }
+  .ContactForm input[type="email"]{
+    background-color: transparent;
+    border: solid white 3px;
+    color:white;
+  }
+  .formRow{
+    padding: 20px;
+  }
+  .formRow textarea{
+    background-color: transparent;
+    border: solid white 3px;
+    color: white;
+  }

@@ -1,0 +1,11 @@
+button{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.glow-text {
+    color: white;
+    text-shadow: rebeccapurple 0 0 10px;
+   }

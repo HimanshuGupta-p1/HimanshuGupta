@@ -1,0 +1,19 @@
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0.05px 0.01px 0.01px 0.01px;
+    float:left;
+    border: 3px solid white;
+  }
+  .button{
+    margin: 10px;  
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,84,224,1) 100%);
+    border:3px solid white;
+}
+.nav-link{
+  color: #fff;
+}
+.colors{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,84,224,1) 100%);
+}
