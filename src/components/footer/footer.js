@@ -5,7 +5,7 @@ export default function Footer(){
     const user={
         instagram:"https://www.instagram.com/invites/contact/?i=15qth0sqh0b53&utm_content=kixv2g6",
         linkedIn:"https://www.linkedin.com/in/himanshu-gupta-28a6ba207",
-        github:"https://github.com/Himanshu-Styles",
+        github:"https://github.com/HimanshuGupta-p1",
         facebook:"https://www.facebook.com/profile.php?id=100017297291417",
         codepen:"https://codepen.io/Himanshu_Styles"
     };
