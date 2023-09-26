@@ -28,6 +28,8 @@ const IMAGES={
     react:require('./react.png'),
     git:require('./Git.png'),
     signature:require('./signature.png'),
-    comingsoon:require('./coming-soon-1898936.jpg')
+    comingsoon:require('./coming-soon-1898936.jpg'),
+    stackoverflow: require('./stackoverflow.png'),
+    samvad: require('./image.png')
 }
 export default IMAGES;

@@ -13,7 +13,7 @@ export default function Education() {
                                 <h4> B.Tech in Computer Science Engineering</h4>
                                 <h4 className="text-white">Pranveer Singh Institute of Technology, Kanpur</h4>
                                 <h5 className="float-start text-primary">12/2020 - Present</h5>
-                                <h5 className="float-end text-primary">CGPA : 9.073/10.0</h5>
+                                <h5 className="float-end text-primary">CGPA : 8.56/10.0</h5>
                             </li>
                             <hr />
                             <li>

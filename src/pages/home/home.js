@@ -43,6 +43,7 @@ export default function Home() {
                 <figure>
                     <img src={IMAGES.homeslider1} alt="IMG1" />
                     <img src={IMAGES.homeslider2} alt="IMG2" />
+                    <img src={IMAGES.samvad} alt="IMG3" />
                 </figure>
             </div>
             <div className='text-center'><img src={IMAGES.signature} className="signature" alt="signature" />
