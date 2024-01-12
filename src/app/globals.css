@@ -1,0 +1,167 @@
+.relative {
+    position: relative;
+    z-index: 0;
+}
+
+.glow-text {
+    color: white;
+    text-shadow: rebeccapurple 0 0 10px;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background: radial-gradient(circle, rgba(1, 0, 10, 1) 34%, rgba(0, 0, 89, 1) 100%);
+    margin: 0;
+}
+
+/* home css */
+.nameimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.glow-text {
+    color: white;
+    text-shadow: blue 0 0 10px;
+}
+
+.glow {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow:
+        inset 0 0 50px #f0f,
+        inset 20px 0 80px #f0f,
+        inset -20px 0 80px #0ff,
+        inset 20px 0 300px #f0f,
+        inset -20px 0 300px #f0f,
+        0 0 50px #0ff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
+}
+
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 15s slidy infinite;
+}
+
+.signature {
+    width: 300px;
+    position: relative;
+    margin: -50px
+}
+
+@media screen and (max-width:600px) {
+    .signature {
+        width: 200px;
+        position: relative;
+    }
+}
+/* navbar css */
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0.05px 0.01px 0.01px 0.01px;
+    float:left;
+    border: 3px solid white;
+  }
+  .button{
+    margin: 10px;  
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,84,224,1) 100%);
+    border:3px solid white;
+}
+.nav-link{
+  color: #fff;
+}
+.colors{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,84,224,1) 100%);
+}
