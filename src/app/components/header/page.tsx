@@ -6,7 +6,8 @@ export default function Header() {
     <>
       <Navbar expand="md" className="mb-3">
         <Container fluid>
-          <Navbar.Brand href="/"><img
+          <Navbar.Brand href="/">
+            <img
             src="/logo.png"
             width="30"
             height="30"

@@ -21,7 +21,7 @@ const Skills = () => (
         </div>
       ))}
     </div>
-    <div className='text-center'><img src={'/signature.png'} className="signature" alt="signature" />
+    <div className='text-center'><Image src={'/signature.png'} className="signature" alt="signature" />
         </div>
   </div>
 );
